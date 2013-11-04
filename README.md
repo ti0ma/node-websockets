@@ -1,19 +1,26 @@
 # Node.js Websocket Test
 
-A tiny demo using the [einaros/ws](http://einaros.github.io/ws/) WebSockets implementation.
+A demo using the [einaros/ws](http://einaros.github.io/ws/) WebSockets implementation.
 
-# Running Locally
+# Preview App
+
+Within the Nitrous console, clone the repo and navigate into the folder.
+
+``` bash
+git clone git@github.com:nitrous-examples/node-websockets.git
+cd node-websockets
+```
+Next, run the following commands to run the app:
 
 ``` bash
 npm install
-foreman start
+node server
 ```
+In the menu, navigate to `Preview > Port 4000`. Change the port in the
+address bar to `5000` and you shouldsee the demo app running.
 
-# Running on Heroku
+# Credits
 
-``` bash
-heroku create
-heroku labs:enable websockets
-git push heroku master
-heroku open
-```
+Credits for this demo go to
+[/heroku-examples](https://github.com/heroku-examples/node-ws-test).
+View their repo for information on pushing to Heroku.
