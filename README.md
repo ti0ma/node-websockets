@@ -17,7 +17,7 @@ npm install
 node server
 ```
 In the menu, navigate to `Preview > Port 4000`. Change the port in the
-address bar to `5000` and you shouldsee the demo app running.
+address bar to `5000` and you will see the demo app running.
 
 # Credits
 
