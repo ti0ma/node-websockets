@@ -7,7 +7,7 @@ A demo using the [einaros/ws](http://einaros.github.io/ws/) WebSockets implement
 Within the Nitrous console, clone the repo and navigate into the folder.
 
 ``` bash
-git clone git@github.com:nitrous-examples/node-websockets.git
+git clone https://github.com/nitrous-examples/node-websockets.git
 cd node-websockets
 ```
 Next, run the following commands to run the app:
